@@ -1,11 +1,15 @@
 {
-  "name": "eth-leaderboard",
-  "version": "0.1.0",
+  "name": "donation-leaderboard",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
+    "glamor": "^2.20.40",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1"
+    "react-emojione": "^5.0.0",
+    "react-responsive": "^4.0.4",
+    "react-scripts": "1.1.1",
+    "web3": "1.0.0-beta.30"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,7 +18,7 @@
     "eject": "react-scripts eject"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/geleeroyale/eth-leaderboard/"
+    "type": "git",
+    "url": "https://github.com/giveth/donation-leaderboard/"
   }
 }
